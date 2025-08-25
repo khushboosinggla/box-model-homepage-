@@ -20,7 +20,6 @@ It introduces basic concepts of CSS, including Responsive Design and the Box Mod
 
 ## 👩‍💻 Creator
 **Created by Khushboo Singla**  
-Follow on [Instagram](#), [Twitter](#), [LinkedIn](#)  
 
 ---
 ✨ A beginner-friendly project to understand the basics of CSS and webpage structure.
