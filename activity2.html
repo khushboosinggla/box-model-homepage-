@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(193, 186, 186);
+            margin: 0;
+            padding: 0;
+        }
+        .top {
+            text-align: center;
+            justify-content: center;
+            background-color: rgb(18, 179, 18);
+            height: 150px;
+            padding-top: 40px;
+        }
+        .top2 {
+            text-align: center;
+            color: white;
+        }
+        h1 {
+            color: white;
+        }
+
+        .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin: 40px;
+
+        }
+
+        .box1 {
+            border: 2px  black;
+            width: 35%;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-right: 110px;
+
+        }
+
+        .box2 {
+            margin-left: 30px;
+            border: 2px  black;
+            width: 35%;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+        }
+        .full-width {
+            width: 35%;
+            margin-right: 50%;
+            border-radius: 10px;
+            background-color: white ;
+
+            border: 2px  black;
+            width: 35%;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+        }
+        
+        .heading {
+            color: green;
+        }
+
+        footer {
+            background-color: black;
+            padding: 20px;
+            text-align: center;
+        }
+        .down {
+            color: white;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <h1>Welcome to Your Website Task</h1>
+        <div class="top2">
+            <h3>Home | About | Contact</h3>
+        </div>
+    </div>
+
+    <div class="box-container">
+        <div class="box1">
+            <h2 class="heading">About CSS</h2>
+            <p>Cascading Style Sheets allow you to style and layout your web page, adding color and spacing.</p>
+        </div>
+
+        <div class="box2">
+            <h2 class="heading">Responsive Design</h2>
+            <p>Responsive design ensures your webpage looks great on every kind of device.</p>
+        </div>
+
+        <div class="box full-width">
+            <h2 class="heading">Box Model</h2>
+            <p>The Box Model in CSS allows you to structure and design webpage elements efficiently.</p>
+        </div>
+    </div>
+
+    <footer>
+        <h3 class="down">Created by Khushboo Singla | Follow us on 
+            <a href="instagram">Instagram</a> | 
+            <a href="twitter">Twitter</a> | 
+            <a href="linkedin">LinkedIn</a>
+        </h3>
+    </footer>
+</body>
+</html>
